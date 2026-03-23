@@ -4,7 +4,7 @@
   "description": "Blog API with articles, tags, and categories",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "prisma db push && node app.js",
     "dev": "nodemon app.js",
     "db:generate": "prisma generate",
     "db:push": "prisma db push",
