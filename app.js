@@ -15,7 +15,7 @@ app.use(
 
 app.use(express.json());
 
-app.use('/api/articles', articleRouter);
+app.use('/articles', articleRouter);
 
 const PORT = process.env.PORT || 8080;
 
